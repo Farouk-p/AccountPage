@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3578" started-at="2021-03-02T10:21:23Z" finished-at="2021-03-02T10:21:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3578" started-at="2021-03-02T10:21:23Z" finished-at="2021-03-02T10:21:27Z">
+      <class name="com.rcb.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rcb.testcases.LoginTest@91161c7]" name="setUp" is-config="true" duration-ms="17534" started-at="2021-03-02T11:21:06Z" finished-at="2021-03-02T11:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToAccountPage()[pri:0, instance:com.rcb.testcases.LoginTest@91161c7]" name="loginToAccountPage" duration-ms="3524" started-at="2021-03-02T11:21:23Z" finished-at="2021-03-02T11:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAccountPage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.rcb.testcases.LoginTest@91161c7]" name="TearDown" is-config="true" duration-ms="996" started-at="2021-03-02T11:21:27Z" finished-at="2021-03-02T11:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.rcb.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
