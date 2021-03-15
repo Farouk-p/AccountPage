@@ -11,7 +11,7 @@ public class CreateAccountTest extends TestBase {
 	public void CreateRibyAccount () {
 		
 		driver.findElement(By.xpath(OR.getProperty("CreateOnebtn_XPATH"))).click();
-		
+		driver.findElement(By.xpath(OR.getProperty("Firstname_XPATH"))).sendKeys(OR.getProperty("Firstname"));
 		
 	}
 
